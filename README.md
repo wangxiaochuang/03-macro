@@ -115,3 +115,11 @@ subject: commit目的的简短描述,不超过50个字符
 fix(DAO): 用户查询缺少username属性
 feature(Controller): 用户查询接口开发
 ```
+
+## 宏
+
+查看展开后的内容
+```sh
+cargo install cargo-expand
+cargo expand --example enum_macro
+```
